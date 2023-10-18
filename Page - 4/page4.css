@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--------------------------------NAVBAR-------------------*/
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    border-bottom: 1px solid gray;
+}
+.icons-pr{
+    width: max-content;
+    height: max-content;
+}
+.abc{
+    margin-left: 10px;
+    transition: .5s all linear;
+    font-size: 12px;
+}
+.abc:hover{
+    color: rgb(255, 10, 91);
+}
+.logo-pr{
+    width: max-content;
+    height: 90%;
+}
+.li-pr{
+    width: max-content;
+    height: auto;
+    display: flex;
+}
+.unordered{
+    display: flex;
+    position: relative;
+}
+.list{
+    list-style: none;
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.list:hover{
+    color: rgb(255, 10, 91);
+}
+.menu{
+    font-size: 12px;
+}
+.dd-1{
+    width: 30%;
+    height: max-content;
+    position: absolute;
+    box-shadow: 1px 1px 7px 2px rgb(206, 197, 197);
+    visibility: hidden;
+    transform: translateY(50px);
+    transition: .3s all ;
+}
+#li-1:hover .dd-1{
+    visibility: visible;
+    transform: translateY(20px);
+}
+#li-2:hover .dd-1{
+    visibility: visible;
+    transform: translateY(20px);
+}
+#li-3:hover .dd-1{
+    visibility: visible;
+    transform: translateY(20px);
+}
+#li-4:hover .dd-1{
+    visibility: visible;
+    transform: translateY(20px);
+}
+
+.creative{
+    width: 100%;
+    height: 35px;
+    border-top: 4px solid rgb(255, 10, 91);
+    color: gray;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+.designer{
+    width: 100%;
+    height: 35px;
+    border-top: 1px solid gainsboro;
+    color: gray;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+/*-----------------------------------SECTION-1--------------------*/
+.section-1{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+.img-1{
+    width: 100%;
+    height: 100%;
+}
+.boxes-1{
+    position: relative;
+}
+.cr-pr{
+    width: max-content;
+    height: max-content;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0 1%;
+    transform: translate(-50%,-50%);
+}
+.heading-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+}
+.para-1{
+    position: absolute;
+    color: white;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
